@@ -22,7 +22,7 @@ function help() {
     printf '%s\n' " "
     printf '%s\n' " Enable Real-time Protection Statistics:"
     printf '%s\n' "   Terminal (sudo/root)"
-    printf '%s\n' "   mdatp config real-time-protection-statistics –value enabled"
+    printf '%s\n' "   mdatp config real-time-protection-statistics –-value enabled"
     printf '%s\n' " Note:  In Production channel"
     printf '%s\n' " Note 2:  Not needed in Dogfood and InsidersFast channels since its enabled by default."
     printf '%s\n' " "
@@ -30,7 +30,7 @@ function help() {
     printf '%s\n' "   mdatp diagnostic real-time-protection-statistics –output json > real_time_protection_logs"
     printf '%s\n' " "
     printf '%s\n' " Disable real-time-protection-statistics:"
-    printf '%s\n' "   mdatp config real-time-protection-statistics –value disabled"
+    printf '%s\n' "   mdatp config real-time-protection-statistics –-value disabled"
 }
 
 POSITIONAL=()
