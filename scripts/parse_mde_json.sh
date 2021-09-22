@@ -6,6 +6,7 @@
 #Author       	: Jacob Pszonowsky
 #Location     	: https://github.com/jakepez/utilities/blob/main/scripts/parse_mde_json.sh                                      
 #                 Copyright (c) 2021
+# @version@     : 1.0
 ##########################################################################################
 
 DEBUG_LOG=0
